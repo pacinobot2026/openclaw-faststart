@@ -26,7 +26,7 @@ export default function Home() {
     }}>
       {/* Header */}
       <header style={{ padding: '2rem', textAlign: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
-        <div style={{ fontSize: '3rem' }}>🎬</div>
+        <img src="/logo.png" alt="Pacino" style={{ height: '80px', width: 'auto' }} />
       </header>
 
       {/* Hero */}
