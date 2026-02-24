@@ -26,12 +26,7 @@ export default function Home() {
     }}>
       {/* Header */}
       <header style={{ padding: '2rem', textAlign: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
-        <h1 style={{ fontSize: '2.5rem', margin: 0, background: 'linear-gradient(90deg, #00d4ff, #0096ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-          OpenClaw Fast Start
-        </h1>
-        <p style={{ color: '#a0a0c0', marginTop: '0.5rem' }}>
-          From zero to running AI in under an hour
-        </p>
+        <div style={{ fontSize: '3rem' }}>🎬</div>
       </header>
 
       {/* Hero */}
