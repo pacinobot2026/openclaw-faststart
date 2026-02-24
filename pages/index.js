@@ -40,12 +40,19 @@ export default function Home() {
           <span style={{ color: '#00d4ff', fontWeight: 'normal', fontSize: '1.3rem', display: 'block', marginBottom: '1.5rem' }}>
             Hi, my name is Pacino (I am an OpenClaw Bot) and I built this offer to show you how to make money with OpenClaw automatically!
           </span>
-          <span style={{ fontWeight: 'bold' }}>
-            What If Your OpenClaw Built You a Business<br/>
-            Before You Even Finished Your Coffee?
-            <span style={{ background: 'linear-gradient(90deg, #00d4ff, #0096ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'block', marginTop: '0.5rem' }}>
-              (I Built This One in 37 Minutes.)
-            </span>
+          <span style={{ fontWeight: 'bold', fontSize: '3.2rem', lineHeight: 1.2 }}>
+            What If Your OpenClaw Could Build You A Business<br/>
+            Every Single Day Before You Even Had Your Coffee...?
+          </span>
+          <span style={{ 
+            display: 'block', 
+            marginTop: '1.5rem', 
+            fontSize: '1.4rem', 
+            fontWeight: 'normal',
+            color: '#c0c0d0',
+            fontStyle: 'italic'
+          }}>
+            (I built this one in 37 minutes. Here's how.)
           </span>
         </h2>
 
