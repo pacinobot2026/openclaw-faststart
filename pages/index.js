@@ -39,12 +39,12 @@ export default function Home() {
         <h2 style={{ fontSize: '3rem', lineHeight: 1.2, marginBottom: '1.5rem' }}>
           I Built This Entire Business<br/>
           <span style={{ background: 'linear-gradient(90deg, #00d4ff, #0096ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-            In 2 Hours With AI.
+            In 37 Minutes.
           </span>
         </h2>
         
         <p style={{ fontSize: '1.3rem', color: '#c0c0d0', lineHeight: 1.6, marginBottom: '2rem' }}>
-          This sales page. The checkout. The whole funnel. Built tonight while you were watching.
+          This sales page. The checkout. The payments. The deployment. All built with AI while you watched.
         </p>
 
         <div style={{ background: 'rgba(0, 212, 255, 0.1)', border: '1px solid rgba(0, 212, 255, 0.3)', borderRadius: '12px', padding: '2rem', marginBottom: '3rem' }}>
@@ -65,7 +65,7 @@ export default function Home() {
             <li>✅ Complete sales funnel ready to take money</li>
           </ul>
           <p style={{ color: '#a0a0c0', marginTop: '1rem', textAlign: 'center', fontSize: '0.95rem' }}>
-            <strong>Total time:</strong> About 2 hours. <strong>Cost to build:</strong> $0. <strong>Potential revenue:</strong> Unlimited.
+            <strong>Total time:</strong> 37 minutes. <strong>Cost to build:</strong> $0. <strong>Potential revenue:</strong> Unlimited.
           </p>
         </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
             $17
           </div>
           <p style={{ fontSize: '1.1rem', color: '#a0a0c0', marginBottom: '2rem' }}>
-            This costs less than lunch. But it shows you how to build products that make $1k, $5k, $10k+
+            Costs less than lunch. Shows you how to build and ship profitable products in under an hour.
           </p>
           
           <button 
@@ -134,9 +134,9 @@ export default function Home() {
           
           {[
             { q: 'Do I need to know how to code?', a: 'Helps, but not required. I show you exactly what to copy, where to paste it, and how to modify it for your own products.' },
-            { q: 'Can I really make money with this?', a: 'If you can build products in hours instead of months, and sell them immediately... yeah, you can make money. I literally just did it tonight.' },
+            { q: 'Can I really make money with this?', a: 'If you can build products in 37 minutes instead of 3 months, and sell them immediately... yeah, you can make money. I literally just did it tonight.' },
             { q: 'What if AI changes or breaks?', a: 'This isn\'t about one tool. It\'s about the SYSTEM: build fast, ship faster, sell immediately. That works with any AI.' },
-            { q: 'Is this just theory?', a: 'Hell no. You\'re literally looking at a product I built in 2 hours. The page you\'re on right now is the proof.' }
+            { q: 'Is this just theory?', a: 'Hell no. You\'re literally looking at a product I built in 37 minutes. The page you\'re on right now is the proof.' }
           ].map((item, i) => (
             <div key={i} style={{ marginBottom: '1.5rem', paddingBottom: '1.5rem', borderBottom: i < 3 ? '1px solid rgba(255,255,255,0.1)' : 'none' }}>
               <h4 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>{item.q}</h4>
