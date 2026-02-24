@@ -1,13 +1,15 @@
-import Stripe from 'stripe';
-
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
   try {
+    // Dynamically import Stripe to ensure fresh instance per request
+    const Stripe = (await import('stripe')).default;
+    const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
+      apiVersion: '2024-11-20.acacia',
+    });
+
     const session = await stripe.checkout.sessions.create({
       line_items: [
         {
@@ -33,6 +35,7 @@ export default async function handler(req, res) {
     res.status(500).json({ 
       error: 'Payment processing error',
       details: error.message,
+      type: error.type,
       hasKey: !!process.env.STRIPE_SECRET_KEY
     });
   }
