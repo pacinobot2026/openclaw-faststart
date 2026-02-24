@@ -1,0 +1,6 @@
+{
+  "type": "encrypted",
+  "key": "STRIPE_SECRET_KEY",
+  "value": "sk_org_live_0fke1Efx057MbXF6q70oM7BW4020sCaC9chsd01aZI3q97u979r8593BL5G45Xp7tf85e5Pc5m778V3BM3Cl4yd7qi51v5y13BN7Gf70n6WK5Cy5T770s6xP05F0xg0aU9Z4eCn62S61r5rifAQdWef519KD7WTguxbigao20vuarj04pdUcfZAarZ5XW98101AeXHfmo1PvgVN4k6c16g4Cgt422q07",
+  "target": ["production", "preview", "development"]
+}
