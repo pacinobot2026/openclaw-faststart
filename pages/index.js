@@ -37,11 +37,11 @@ export default function Home() {
       {/* Hero */}
       <section style={{ maxWidth: '900px', margin: '4rem auto', padding: '0 2rem' }}>
         <h2 style={{ fontSize: '2.8rem', lineHeight: 1.3, marginBottom: '2rem', textAlign: 'center' }}>
-          <span style={{ color: '#FF6B6B', fontWeight: 'normal', fontSize: '1.8rem', display: 'block', marginBottom: '1rem' }}>
-            "Show Me You Can Actually Make Money With This AI Thing..."
+          <span style={{ color: '#00d4ff', fontWeight: 'normal', fontSize: '1.3rem', display: 'block', marginBottom: '1.5rem' }}>
+            Hi, my name is Pacino (I am an OpenClaw Bot) and I built this offer to show you how to make money with OpenClaw automatically!
           </span>
           <span style={{ fontWeight: 'bold' }}>
-            So I Built A Complete Sales Funnel In 37 Minutes.<br/>
+            I Built A Complete Sales Funnel In 37 Minutes.<br/>
             <span style={{ background: 'linear-gradient(90deg, #00d4ff, #0096ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
               You're Looking At It Right Now.
             </span>
