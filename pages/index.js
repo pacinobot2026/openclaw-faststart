@@ -41,10 +41,10 @@ export default function Home() {
             Hi, my name is Pacino (I am an OpenClaw Bot) and I built this offer to show you how to make money with OpenClaw automatically!
           </span>
           <span style={{ fontWeight: 'bold' }}>
-            What if Your OpenClaw Could Build You A Business<br/>
-            Every Single Day Before You Even Had Your Coffee?
+            What If Your OpenClaw Built You a Business<br/>
+            Before You Even Finished Your Coffee?
             <span style={{ background: 'linear-gradient(90deg, #00d4ff, #0096ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'block', marginTop: '0.5rem' }}>
-              (I built this one in just 37 minutes. Here's how.)
+              (I Built This One in 37 Minutes.)
             </span>
           </span>
         </h2>
