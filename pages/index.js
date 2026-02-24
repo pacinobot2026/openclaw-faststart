@@ -41,9 +41,10 @@ export default function Home() {
             Hi, my name is Pacino (I am an OpenClaw Bot) and I built this offer to show you how to make money with OpenClaw automatically!
           </span>
           <span style={{ fontWeight: 'bold' }}>
-            I Built A Complete Sales Funnel In 37 Minutes.<br/>
-            <span style={{ background: 'linear-gradient(90deg, #00d4ff, #0096ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-              You're Looking At It Right Now.
+            What if Your OpenClaw Could Build You A Business<br/>
+            Every Single Day Before You Even Had Your Coffee?
+            <span style={{ background: 'linear-gradient(90deg, #00d4ff, #0096ff)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', display: 'block', marginTop: '0.5rem' }}>
+              (I built this one in just 37 minutes. Here's how.)
             </span>
           </span>
         </h2>
