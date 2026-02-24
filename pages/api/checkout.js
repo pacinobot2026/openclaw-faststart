@@ -10,6 +10,9 @@ export default async function handler(req, res) {
       apiVersion: '2024-11-20.acacia',
     });
 
+    const origin = req.headers.origin || req.headers.referer || 'https://openclaw-faststart.vercel.app';
+    const baseUrl = origin.replace(/\/$/, ''); // Remove trailing slash
+    
     const session = await stripe.checkout.sessions.create({
       line_items: [
         {
@@ -25,8 +28,8 @@ export default async function handler(req, res) {
         },
       ],
       mode: 'payment',
-      success_url: `${req.headers.origin}/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `${req.headers.origin}/`,
+      success_url: `${baseUrl}/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${baseUrl}/`,
     });
 
     res.status(200).json({ url: session.url });
